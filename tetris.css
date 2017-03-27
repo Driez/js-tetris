@@ -1,0 +1,58 @@
+/*
+1.) html display 12x22
+2.) conrols (eventlisteners
+3.) logic
+
+*/
+
+body ol ul li div header footer {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.matrix-table {
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.matrix-row {
+    line-height: 0;
+}
+
+.matrix-cell {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+
+
+.matrix-cell[data-color="0"] {
+    background-color: white;
+}
+
+.matrix-cell[data-color="1"] {
+    background-color: black;
+}
+
+.matrix-cell[data-color="2"] {
+    background-color: red;
+}
+
+.matrix-cell[data-color="3"] {
+    background-color: orange;
+}
+
+.matrix-cell[data-color="4"] {
+    background-color: green;
+}
+
+.matrix-cell[data-color="5"] {
+    background-color: blue;
+}
+
+.matrix-cell[data-color="6"] {
+    background-color: mediumaquamarine;
+}
