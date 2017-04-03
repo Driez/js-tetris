@@ -56,3 +56,8 @@ body ol ul li div header footer {
 .matrix-cell[data-color="6"] {
     background-color: mediumaquamarine;
 }
+
+.table{
+    border: 3px solid black;
+    display: inline-block;
+}

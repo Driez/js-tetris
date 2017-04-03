@@ -1,17 +1,3 @@
-/*
-    Creates a matrix display made of div elements.
-    w: Width
-    h: Height
-    Returns {
-        $cells: a 2-dimensional array of jQuery references to the fields
-        $table: jQuery object of the table itself
-        draw(colors): sets all background colors based on given 2-dimensional array
-    }
-
-    TODO: Fix comment to match the new class
-*/
-
-
 class MatrixDisplay {
     constructor(width, height) {
         this.width = width;
