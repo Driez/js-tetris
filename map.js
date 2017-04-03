@@ -75,28 +75,3 @@ class Map {
 		}
 	}
 }
-
-
-/*Map
- - constructor(width, height)
- - Variables:
-   - size {width, height}
-   - pixels:Number[y][x]
- - Properties:
-   - (size)
- - Methods:
-   - clone(): Map
-     > copy = original.map(row => [...row])
-   - createEmptyRow(): Number[x]
-   - getPixels(): Number[y][x]
-   - overlay(block): newMap, can throw an error // checks for collision
-   - checkCollision(block): true/false
-   - getFullRows(): Number[] (y coordinates)
-     > Array.prototype.every => is row full?
-   - deleteRows(rows): rows is a Number[] (y coordinates)
-     > Array.prototype.sort
-     > Array.prototype.splice
-     > Array.prototype.unshift
-   - getFirstNonemptyRow(): Number
-     > Array.prototype.findIndex
-     > Array.prototype.some */
