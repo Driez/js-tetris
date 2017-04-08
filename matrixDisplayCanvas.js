@@ -7,11 +7,11 @@ class MatrixDisplay{
 						'px" height="' + (this.height * this.matrixCell.y) + 'px">Your browser does not show canvas elements</canvas>');
 	}
 
-	draw(colors){ //draws the blocks
-		let canvas = this.$table[0];
+	draw(colors){ 
+		const canvasElement = this.$table[0];
 
-		if(canvas.getContext){
-			canvas = canvas.getContext('2d');
+		if(canvasElement.getContext){
+			const canvas = canvasElement.getContext('2d');
 			this.clearCanvas(canvas);
 			for(let y = 0; y < colors.length; y++){
 				for(let x = 0; x < colors[y].length; x++){

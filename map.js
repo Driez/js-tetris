@@ -25,9 +25,9 @@ class Map {
 
 	overlay(block, failSilently = false) {
 		let newMap = this.clone(),
-				newPixels = newMap.getPixels(),
-				blockPos = block.coordinates,
-				blockPixels = block.getPixels();
+			newPixels = newMap.getPixels(),
+			blockPos = block.coordinates,
+			blockPixels = block.getPixels();
 
 		for(let y = 0; y < block.size.height; y++) {
 			for(let x = 0; x < block.size.width; x++) {
