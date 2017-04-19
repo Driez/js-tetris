@@ -1,0 +1,24 @@
+{
+  "name": "sserver",
+  "version": "1.0.0",
+  "description": "server for tetris highscores",
+  "main": "server.js",
+  "repository": "..",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "co-express": "^2.0.0",
+    "express": "^4.15.2",
+    "promise-redis": "0.0.5",
+    "promisify-node": "^0.4.0",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "michael Graf",
+  "license": "ISC"
+}
