@@ -147,7 +147,7 @@ class TetrisGame {
 		this.gameOver = true;
 		this.clearDropTimeout();
 		this.setName();
-		this.getAndSteScore();
+		this.getAndSetScore();
 	}
 
 	getAndSetScore(){

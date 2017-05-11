@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded());
 
 
 app.get("/",(req, res)=>{
-	res.sendFile("./tetris.html",{root: __dirname + "/html"});
+	res.sendFile("./tetris.html",{root: __dirname + "/public"});
 });
 
 
